@@ -12,13 +12,13 @@ import java.util.List;
 @NoArgsConstructor
 @ToString
 public class DataResponse<T> {
-    private T object;
     private int statusCode;
     private String statusString;
     private String message;
+    private T data;
 
     public DataResponse(T t, HttpStatus httpStatus, String message){
-        this.object = t;
+        this.data = t;
         this.statusCode = httpStatus.value();
         this.statusString = httpStatus.toString();
         this.message = message;

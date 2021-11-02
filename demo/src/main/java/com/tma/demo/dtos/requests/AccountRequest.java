@@ -1,4 +1,4 @@
-package com.tma.demo.dtos;
+package com.tma.demo.dtos.requests;
 
 import com.tma.demo.entities.Account;
 import lombok.*;
