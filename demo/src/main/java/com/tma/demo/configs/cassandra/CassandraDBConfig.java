@@ -1,4 +1,4 @@
-package com.tma.demo.configs;
+package com.tma.demo.configs.cassandra;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

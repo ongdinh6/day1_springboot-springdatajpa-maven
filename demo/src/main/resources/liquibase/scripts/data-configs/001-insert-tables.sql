@@ -1,0 +1,1 @@
+insert into accounts(username, password, phone_number) values('anguyen', '12345', '0909809908')

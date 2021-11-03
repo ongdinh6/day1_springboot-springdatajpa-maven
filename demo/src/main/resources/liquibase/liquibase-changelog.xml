@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <!-- Define structure of ddl liquibase, we have a folders included all file below -->
+    <!-- cấu trúc của một ddl, có thể tạo ra các table theo cấu trúc là các thẻ xml -->
+    <include file="changelog/001-ddl-envers.xml" relativeToChangelogFile="true"/>
+
+    <!-- tạo ra file có thể đọc structure của một file sql -->
+    <include file="changelog/002-ddl-structures.xml" relativeToChangelogFile="true"/>
+
+    <!--  tạo ra một file data config để đọc các câu lệnh sql tương ứng để thực thi  -->
+    <include file="changelog/003-ddl-data-configs.xml" relativeToChangelogFile="true"/>
+
+    <!-- tạo ra một file để quản lý các procedures hoặc triggers trong quá trình mapping dữ liệu vào bảng -->
+    <include file="changelog/004-ddl-triggers-procedures.xml" relativeToChangelogFile="true"/>
+
+
+</databaseChangeLog>

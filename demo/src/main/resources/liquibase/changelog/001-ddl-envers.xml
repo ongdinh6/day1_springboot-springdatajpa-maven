@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    tạo table 'accounts' có column id là primary key,
+    username text,
+    password text,
+    phone_number text
+    (tương tự file được config bởi xml, cần xem thêm cách config bằng json)
+    *Tham khảo tại: youtube/thaitieuloi
+-->
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<!--    <property name="uuid_type" value="uuid" dbms="postgresql"/>-->
+<!--    <property name="uuid_type" value="uniqueidentifier" dbms="mssql"/>-->
+<!--    <property name="uuid_type" value="RAW(16)" dbms="oracle"/>-->
+
+<!--    <property name="uuid_function" value="uid.uuid_generate_v4()" dbms="postgresql"/>-->
+<!--    <property name="uuid_function" value="NEWID()" dbms="mssql"/>-->
+<!--    <property name="uuid_function" value="sys_guid()" dbms="oracle"/>-->
+    <changeSet id="1" author="omdinh">
+        <createTable tableName="accounts">
+<!--            <column name="id" type="${uuid_type}" defaultValueComputed="${uuid_function}">-->
+<!--                <constraints nullable="false" unique="true" />-->
+<!--            </column>-->
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="username" type="TEXT"/>
+            <column name="password" type="TEXT"/>
+        </createTable>
+    </changeSet>
+    <changeSet id="2" author="omdinh">
+        <addColumn tableName="accounts">
+            <column name="phone_number" type="TEXT"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>
