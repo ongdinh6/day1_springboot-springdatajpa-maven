@@ -2,7 +2,6 @@ package com.tma.demo.dtos.requests;
 
 import com.tma.demo.entities.cassandra.Product;
 import com.tma.demo.entities.jpa.ProductJPA;
-import liquibase.pro.packaged.T;
 import lombok.*;
 
 import java.util.UUID;
@@ -30,7 +29,7 @@ public class ProductRequest {
         product.setProductId(UUID.randomUUID());
         product.setItem(item);
         product.setClazz(clazz);
-        product.setInvestory(investory);
+        product.setInventory(investory);
         return product;
     }
 }

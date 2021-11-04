@@ -5,33 +5,116 @@
     password text,
     phone_number text
     (tương tự file được config bởi xml, cần xem thêm cách config bằng json)
-    *Tham khảo tại: youtube/thaitieuloi
+    *Tham khảo tại: youtube/thaitieuloi & liquibase.org/get-started/best-practices
+    - https://auth0.com/blog/integrating-spring-data-jpa-postgresql-liquibase/#Managing-the-Database-Schema-with-Liquibase
 -->
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
-<!--    <property name="uuid_type" value="uuid" dbms="postgresql"/>-->
-<!--    <property name="uuid_type" value="uniqueidentifier" dbms="mssql"/>-->
-<!--    <property name="uuid_type" value="RAW(16)" dbms="oracle"/>-->
+    <property name="uuid_type" value="uuid" dbms="postgresql"/>
+<!--    <property name="uuid_function" value="uid.uuid_generate_v3(uid.uuid_ns_url(), 'http://www.postgresql.org')" dbms="postgresql"/>-->
+    <changeSet id="changeset-create-extension-uuid-ossp" author="omdinh">
+        <sqlFile path="../scripts/structures/001-create-extension-uuid-ossp.sql" relativeToChangelogFile="true" encoding="UTF-8" />
+    </changeSet>
 
-<!--    <property name="uuid_function" value="uid.uuid_generate_v4()" dbms="postgresql"/>-->
-<!--    <property name="uuid_function" value="NEWID()" dbms="mssql"/>-->
-<!--    <property name="uuid_function" value="sys_guid()" dbms="oracle"/>-->
-    <changeSet id="1" author="omdinh">
-        <createTable tableName="accounts">
-<!--            <column name="id" type="${uuid_type}" defaultValueComputed="${uuid_function}">-->
-<!--                <constraints nullable="false" unique="true" />-->
+    <!-- changeSet 4: create sales table -->
+<!--    <changeSet id="changeset-drop-sales-if-exist" author="omdinh">-->
+<!--        <preConditions>-->
+<!--            <tableExists tableName="sales"></tableExists>-->
+<!--        </preConditions>-->
+<!--        <dropTable tableName="sales"></dropTable>-->
+<!--    </changeSet>-->
+<!--    <changeSet id="changeset-create-sales-table" author="omdinh">-->
+<!--        <createTable tableName="sales">-->
+<!--            <column name="sale_id" type="${uuid_type}">-->
+<!--                <constraints primaryKey="true" nullable="false" unique="true"/>-->
 <!--            </column>-->
-            <column name="id" type="BIGINT" autoIncrement="true">
-                <constraints primaryKey="true" nullable="false"/>
-            </column>
-            <column name="username" type="TEXT"/>
-            <column name="password" type="TEXT"/>
-        </createTable>
-    </changeSet>
-    <changeSet id="2" author="omdinh">
-        <addColumn tableName="accounts">
-            <column name="phone_number" type="TEXT"/>
-        </addColumn>
-    </changeSet>
+<!--            <column name="dollars" type="money"/>-->
+<!--        </createTable>-->
+<!--    </changeSet>-->
+
+
+    <!-- changeSet 1: create product table -->
+<!--    <changeSet id="changeset-drop-product-if-exist" author="omdinh">-->
+<!--        <preConditions>-->
+<!--            <tableExists tableName="product"></tableExists>-->
+<!--        </preConditions>-->
+<!--        <dropTable tableName="product"></dropTable>-->
+<!--    </changeSet>-->
+<!--    <changeSet id="changeset-create-product-table" author="omdinh">-->
+<!--        <createTable tableName="product">-->
+<!--            <column name="product_id" type="${uuid_type}">-->
+<!--                <constraints nullable="false" unique="true"/>-->
+<!--            </column>-->
+<!--            <column name="item" type="integer"/>-->
+<!--            <column name="clazz" type="varchar(255)"/>-->
+<!--            <column name="inventory" type="varchar(255)"/>-->
+<!--            <column name="sale_id" type="varchar(255)"/>-->
+<!--        </createTable>-->
+<!--        &lt;!&ndash; ManyToOne Sales table (table product has a foreign-key with sale_id value &ndash;&gt;-->
+<!--        &lt;!&ndash; end relationship mapping &ndash;&gt;-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="changeset-update-product-table" author="omdinh">-->
+<!--        <addForeignKeyConstraint baseTableName="product"-->
+<!--                                 baseColumnNames="sale_id"-->
+<!--                                 constraintName="fk_sale_id"-->
+<!--                                 referencedTableName="sales"-->
+<!--                                 referencedColumnNames="sale_id"/>-->
+<!--    </changeSet>-->
+
+    <!-- changeSet 2: create time table -->
+<!--    <changeSet id="changeset-drop-times-if-exist" author="omdinh">-->
+<!--        <preConditions>-->
+<!--            <tableExists tableName="times"></tableExists>-->
+<!--        </preConditions>-->
+<!--        <dropTable tableName="times"></dropTable>-->
+<!--    </changeSet>-->
+<!--     <changeSet id="changeset-create-times-table" author="omdinh">-->
+    <!--        <createTable tableName="times">-->
+    <!--            <column name="time_id" type="${uuid_type}">-->
+    <!--                <constraints nullable="false" unique="true"/>-->
+    <!--            </column>-->
+    <!--            <column name="month" type="integer"/>-->
+    <!--            <column name="quarter" type="integer"/>-->
+    <!--            <column name="year" type="integer"/>-->
+    <!--            &lt;!&ndash; ManyToOne Sales table (table time has a foreign-key with sale_id value &ndash;&gt;-->
+    <!--            &lt;!&ndash; end relationship mapping &ndash;&gt;-->
+    <!--        </createTable>-->
+    <!--    </changeSet>-->
+    <!--    <changeSet id="changeset-update-times-table" author="omdinh">-->
+    <!--        <addForeignKeyConstraint baseTableName="times"-->
+    <!--                                 baseColumnNames="sale_id"-->
+    <!--                                 constraintName="fk_sale_id"-->
+    <!--                                 referencedTableName="sales"-->
+    <!--                                 referencedColumnNames="sale_id"/>-->
+    <!--    </changeSet>-->
+
+    <!-- changeSet 3: create locations table -->
+<!--    <changeSet id="changeset-drop-locations-if-exist" author="omdinh">-->
+<!--        <preConditions>-->
+<!--            <tableExists tableName="locations"></tableExists>-->
+<!--        </preConditions>-->
+<!--        <dropTable tableName="locations"></dropTable>-->
+<!--    </changeSet>-->
+<!--    <changeSet id="changeset-create-locations-table" author="omdinh">-->
+<!--        <createTable tableName="locations">-->
+<!--            <column name="location_id" type="${uuid_type}">-->
+<!--                <constraints nullable="false" unique="true"/>-->
+<!--            </column>-->
+<!--            <column name="country" type="varchar(255)"/>-->
+<!--            <column name="city" type="varchar(255)"/>-->
+<!--            &lt;!&ndash; ManyToOne Sales table (table location has a foreign-key with sale_id value &ndash;&gt;-->
+<!--            &lt;!&ndash; end relationship mapping &ndash;&gt;-->
+<!--        </createTable>-->
+<!--    </changeSet>-->
+<!--    <changeSet id="changeset-update-locations-table" author="omdinh">-->
+<!--        <addForeignKeyConstraint baseTableName="locations"-->
+<!--                                 baseColumnNames="sale_id"-->
+<!--                                 constraintName="fk_sale_id"-->
+<!--                                 referencedTableName="sales"-->
+<!--                                 referencedColumnNames="sale_id"/>-->
+<!--    </changeSet>-->
+
+
 </databaseChangeLog>

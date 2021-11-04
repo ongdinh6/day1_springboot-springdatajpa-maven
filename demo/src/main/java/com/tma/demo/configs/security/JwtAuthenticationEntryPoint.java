@@ -27,21 +27,21 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Se
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response,
                          AuthenticationException authException) throws IOException {
-        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Mã token không hợp lệ");
-//        System.out.println("Có gì đó không đúng ở đây!");
+        response.setHeader("log-detail-trace", "Token is expired, please try again.");
+        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Token is expired, please try again!");
 //        response.sendRedirect("/login");
     }
 
     @Override
-    public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
+    public void onAuthenticationSuccess(HttpServletRequest request , HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
         response.setStatus(HttpServletResponse.SC_ACCEPTED);
-        response.sendRedirect("/home");
+//        response.sendRedirect("/home");
     }
 
     @Override
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {
         response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-        UrlPathHelper pathHelper = new UrlPathHelper();
-        response.sendRedirect(pathHelper.getContextPath(request)+"/login?error");
+//        UrlPathHelper pathHelper = new UrlPathHelper();
+//        response.sendRedirect(pathHelper.getContextPath(request)+"/login?error");
     }
 }

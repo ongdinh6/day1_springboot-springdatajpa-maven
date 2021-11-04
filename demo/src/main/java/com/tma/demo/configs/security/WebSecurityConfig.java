@@ -60,7 +60,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity httpSecurity) throws Exception {
         //We don't need CSRF for this example
         httpSecurity.csrf().disable()
-                .authorizeRequests().antMatchers("/api/v1/user/**")
+                .authorizeRequests().antMatchers("/api/v1/users/**")
                 .hasAnyAuthority("ROLE_USER", "ROLE_ADMIN")
                 .antMatchers("/api/v1/admin/**").hasAuthority("ROLE_ADMIN")
                 .anyRequest().permitAll().and()

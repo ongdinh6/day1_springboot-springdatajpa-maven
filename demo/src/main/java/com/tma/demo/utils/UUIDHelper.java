@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpHeaders;
 
 import java.util.UUID;
 
@@ -20,8 +21,8 @@ public class UUIDHelper {
             uuid = UUID.fromString(string);
         }catch (IllegalArgumentException e){
             logger.error("UUIDHelper - "+e.getMessage()+" - "+logger.getName());
-            logUtil.setLogUtil("Path variable is invalid! Error with "+e.getMessage(), logger);
-            throw new InternalServerException("Path variable is invalid! Error with "+e.getMessage());
+            logUtil.setLogUtil("Data request is invalid! Error with "+e.getMessage(), logger);
+            throw new InternalServerException("Data request is invalid! Error with "+e.getMessage());
         }
         return uuid;
     }

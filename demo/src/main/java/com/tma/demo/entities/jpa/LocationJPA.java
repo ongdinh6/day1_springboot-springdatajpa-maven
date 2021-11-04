@@ -13,7 +13,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "location")
+@Table(name = "locations")
 @Entity
 public class LocationJPA {
     @Id

@@ -14,7 +14,7 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("time")
+@Table("times")
 public class Time {
     @PrimaryKey
     @CassandraType(type = CassandraType.Name.UUID)

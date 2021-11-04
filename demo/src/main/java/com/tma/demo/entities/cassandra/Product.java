@@ -35,7 +35,7 @@ public class Product {
         productResponse.setId(productId);
         productResponse.setItem(item);
         productResponse.setClazz(clazz);
-        productResponse.setInvestory(investory);
+        productResponse.setInventory(investory);
 
         return productResponse;
     }
@@ -45,7 +45,7 @@ public class Product {
         productJPA.setProductId(productId);
         productJPA.setItem(item);
         productJPA.setClazz(clazz);
-        productJPA.setInvestory(investory);
+        productJPA.setInventory(investory);
 
         return productJPA;
     }

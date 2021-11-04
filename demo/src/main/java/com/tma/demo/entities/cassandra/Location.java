@@ -16,7 +16,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table("location")
+@Table("locations")
 public class Location {
     @PrimaryKey
     @CassandraType(type = CassandraType.Name.UUID)

@@ -14,5 +14,5 @@ public class ProductResponse {
     private UUID id;
     private int item;
     private String clazz;
-    private String investory;
+    private String inventory;
 }

@@ -1,12 +1,14 @@
 package com.tma.demo.entities.jpa;
 
 
+import com.tma.demo.dtos.responses.AuthorizationResponse;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
@@ -15,15 +17,19 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class UserJPA {
     @Id
     @Column(name = "user_id")
     private UUID userId;
     private String username;
     private String password;
-    @ManyToMany(mappedBy = "users")
-    private Set<RoleJPA> roles;
+
+    @ManyToMany
+    @JoinTable(name = "user_role",
+            joinColumns = { @JoinColumn(name = "user_id") },
+            inverseJoinColumns = { @JoinColumn(name = "role_id") })
+    private Set<RoleJPA> roles = new HashSet<>();
 
     public boolean isAdmin() {
         boolean[] rs = new boolean[1];
@@ -42,5 +48,14 @@ public class UserJPA {
             }
         });
         return rs[0];
+    }
+
+    public AuthorizationResponse toAuthorizationResponse(){
+        AuthorizationResponse author = new AuthorizationResponse();
+        author.setUserId(userId);
+        author.setUsername(username);
+        author.setRoles(roles);
+
+        return author;
     }
 }

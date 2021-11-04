@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--this code is referenced at github link: https://github.com/discospiff/SpringBootMicroServices/blob/master/plantplaces/plantplaces/src/main/resources/logback-spring.xml-->
 <configuration>
-    <property name="LOGS" value="./logs" />
+    <property name="LOGS" value="./logs"/>
     <appender name="Console"
               class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
@@ -34,7 +34,7 @@
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOGS}/severe-logger.log</file>
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>ERROR</level>
+            <level>WARN</level>
         </filter>
         <encoder
                 class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
@@ -55,14 +55,14 @@
 
     <!-- LOG everything at INFO level -->
     <root level="info">
-        <appender-ref ref="Console" />
+        <appender-ref ref="Console"/>
     </root>
 
     <!-- LOG "com.tma.demo.*" at ERROR level -->
-    <logger name="com.tma.demo" level="error" additivity="false">
-        <appender-ref ref="RollingFile" />
-        <appender-ref ref="Console" />
-        <appender-ref ref="SevereRollingFile" />
+    <logger name="com.tma.demo" level="trace" additivity="false">
+        <appender-ref ref="RollingFile"/>
+        <appender-ref ref="Console"/>
+        <appender-ref ref="SevereRollingFile"/>
     </logger>
 
 </configuration>

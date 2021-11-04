@@ -12,7 +12,7 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "time")
+@Table(name = "times")
 @Entity
 public class TimeJPA {
     @Id

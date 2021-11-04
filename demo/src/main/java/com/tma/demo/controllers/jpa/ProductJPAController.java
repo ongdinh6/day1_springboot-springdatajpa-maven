@@ -7,8 +7,11 @@ import com.tma.demo.dtos.responses.ProductResponse;
 import com.tma.demo.entities.cassandra.Product;
 import com.tma.demo.services.cassandra.IProductCassandraService;
 import com.tma.demo.services.jpa.IProductJPAService;
+import com.tma.demo.utils.UUIDHelper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,7 +27,7 @@ public class ProductJPAController {
 
     @PostMapping("/new")
     public DataResponse<ProductResponse> addNewProduct(@RequestBody RequestSingleBodyType<String> productId) {
-        Product productCassandra = productCassandraService.getById(UUID.fromString(productId.getT()));
+        Product productCassandra = productCassandraService.getById(UUIDHelper.toUUID(productId.getT()));
         ProductResponse productResponse = productJPAService.save(productCassandra);
         return new DataResponse<>(productResponse, HttpStatus.OK, "Add new a product into postgresDB is successful!");
     }

@@ -12,5 +12,5 @@ import lombok.Setter;
 @NoArgsConstructor
 public class JwtAuthenticateResponse {
     private String jwt;
-    private UserJPA user;
+    private AuthorizationResponse authorization;
 }

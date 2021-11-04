@@ -22,7 +22,7 @@ public class ProductJPA {
     private UUID productId;
     private int item;
     private String clazz;
-    private String investory;
+    private String inventory;
     @ManyToOne(fetch = FetchType.LAZY)
     private SaleJPA saleJPA;
 
@@ -31,7 +31,7 @@ public class ProductJPA {
         productResponse.setId(productId);
         productResponse.setItem(item);
         productResponse.setClazz(clazz);
-        productResponse.setInvestory(investory);
+        productResponse.setInventory(inventory);
 
         return productResponse;
     }

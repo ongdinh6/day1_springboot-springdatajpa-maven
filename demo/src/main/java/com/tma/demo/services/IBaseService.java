@@ -1,5 +1,9 @@
 package com.tma.demo.services;
 
-public interface IBaseService<T> {
+import java.util.List;
 
+public interface IBaseService<T> {
+    T save(T t);
+    List<T> getAll();
+    T getById(String tId);
 }
