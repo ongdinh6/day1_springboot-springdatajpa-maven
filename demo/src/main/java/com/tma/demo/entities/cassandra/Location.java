@@ -10,6 +10,8 @@ import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
+import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
 import java.util.UUID;
 
 @Getter

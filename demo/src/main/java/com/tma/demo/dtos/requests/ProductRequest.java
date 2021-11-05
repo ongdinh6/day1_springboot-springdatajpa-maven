@@ -21,7 +21,7 @@ public class ProductRequest {
         product.setProductId(UUID.randomUUID());
         product.setItem(item);
         product.setClazz(clazz);
-        product.setInvestory(investory);
+        product.setInventory(investory);
         return product;
     }
     public ProductJPA toJpaObject() {

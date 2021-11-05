@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -20,12 +21,13 @@ import java.util.UUID;
 @Table(name = "users")
 public class UserJPA {
     @Id
-    @Column(name = "user_id")
+    @Type(type = "pg-uuid")
+    @Column(name = "user_id", columnDefinition = "uuid")
     private UUID userId;
     private String username;
     private String password;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
             joinColumns = { @JoinColumn(name = "user_id") },
             inverseJoinColumns = { @JoinColumn(name = "role_id") })

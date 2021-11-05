@@ -12,8 +12,6 @@ import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
-import javax.persistence.Entity;
-import java.awt.*;
 import java.util.UUID;
 
 @Getter
@@ -28,14 +26,14 @@ public class Product {
     private UUID productId;
     private int item;
     private String clazz;
-    private String investory;
+    private String inventory;
 
     public ProductResponse toProductResponse(){
         ProductResponse productResponse = new ProductResponse();
         productResponse.setId(productId);
         productResponse.setItem(item);
         productResponse.setClazz(clazz);
-        productResponse.setInventory(investory);
+        productResponse.setInventory(inventory);
 
         return productResponse;
     }
@@ -45,7 +43,7 @@ public class Product {
         productJPA.setProductId(productId);
         productJPA.setItem(item);
         productJPA.setClazz(clazz);
-        productJPA.setInventory(investory);
+        productJPA.setInventory(inventory);
 
         return productJPA;
     }

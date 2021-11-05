@@ -5,11 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -19,28 +21,14 @@ import java.util.Set;
 @Entity
 public class SaleJPA {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long saleId;
-    @OneToMany(
-            mappedBy = "saleJPA",
-            cascade = CascadeType.ALL,
-            orphanRemoval = true
-    )
-    private Set<ProductJPA> products = new HashSet<>();
-
-    @OneToMany(
-            mappedBy = "saleJPA",
-            cascade = CascadeType.ALL,
-            orphanRemoval = true
-    )
-    private Set<TimeJPA> times = new HashSet<>();
-
-    @OneToMany(
-            mappedBy = "saleJPA",
-            cascade = CascadeType.ALL,
-            orphanRemoval = true
-    )
-    private Set<LocationJPA> locationJPAS = new HashSet<>();
-
+    @Type(type = "pg-uuid")
+    @Column(name = "sale_id", columnDefinition = "uuid")
+    private UUID saleId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private ProductJPA productJPA;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private LocationJPA locationJPA;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private TimeJPA timeJPA;
     private BigDecimal dollars;
 }

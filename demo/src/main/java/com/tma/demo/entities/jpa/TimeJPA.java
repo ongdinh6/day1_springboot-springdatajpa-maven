@@ -4,8 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -16,11 +19,16 @@ import java.util.UUID;
 @Entity
 public class TimeJPA {
     @Id
-    @Column(name = "time_id")
+    @Type(type = "pg-uuid")
+    @Column(name = "time_id", columnDefinition = "uuid")
     private UUID timeId;
     private int month;
     private int quarter;
     private int year;
-    @ManyToOne(fetch = FetchType.LAZY)
-    private SaleJPA saleJPA;
+    @OneToMany(
+            mappedBy = "timeJPA",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private Set<SaleJPA> saleJPAS = new HashSet<>();
 }

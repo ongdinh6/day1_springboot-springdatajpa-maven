@@ -25,7 +25,7 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     //bad-request missing param
     @Override
     protected ResponseEntity<Object> handleMissingServletRequestParameter(MissingServletRequestParameterException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.BAD_REQUEST, ex.getMessage()), headers, status);
     }
 
@@ -33,7 +33,7 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @Override
     protected ResponseEntity<Object> handleExceptionInternal(Exception ex, Object body, HttpHeaders headers, HttpStatus status, WebRequest request) {
         log.info("CustomHandlerExceptionResponse - ResponseEntityExceptionHandler - handlerExceptionInternal");
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.BAD_REQUEST, "Request invalid! Error: " + ex.getMessage()), headers, status);
     }
 
@@ -41,13 +41,14 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @Override
     protected ResponseEntity<Object> handleHttpRequestMethodNotSupported(HttpRequestMethodNotSupportedException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
         log.info("CustomHandlerExceptionResponse - ResponseEntityExceptionHandler - handlerMethodNotAllow");
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.METHOD_NOT_ALLOWED, "Request param is invalid! Error: " + ex.getMessage()), headers, status);
     }
 
     //InvalidDefinitionException
     @Override
     protected ResponseEntity<Object> handleBindException(BindException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
+        headers.set("log-detail-trace", ex.getMessage());
         return super.handleBindException(ex, headers, status, request);
     }
 
@@ -56,7 +57,7 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ResponseEntity<ExceptionResponseDetail>  handlerBadRequestException(BadRequestException ex, WebRequest req) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.BAD_REQUEST, ex.getMessage()), headers, HttpStatus.BAD_REQUEST);
     }
 
@@ -64,7 +65,7 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResponseEntity<ExceptionResponseDetail> handlerInternalServerException(InternalServerException ex, WebRequest req) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage()), headers, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
@@ -72,12 +73,13 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public ResponseEntity<ExceptionResponseDetail> handlerNotFoundException(NotFoundException ex, WebRequest req) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.NOT_FOUND, ex.getMessage()), headers, HttpStatus.NOT_FOUND);
     }
 
     @Override
     protected ResponseEntity<Object> handleNoHandlerFoundException(NoHandlerFoundException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
+        headers.set("log-detail-trace", ex.getMessage());
         return super.handleNoHandlerFoundException(ex, headers, status, request);
     }
 
@@ -86,7 +88,7 @@ public class CustomHandlerExceptionResponse extends ResponseEntityExceptionHandl
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     public ResponseEntity<ExceptionResponseDetail> handlerBadCredentialsException(BadCredentialsException ex, WebRequest req) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("log-detail-tract", ex.getMessage());
+        headers.set("log-detail-trace", ex.getMessage());
         return new ResponseEntity<>(new ExceptionResponseDetail(HttpStatus.UNAUTHORIZED, ex.getMessage()), headers, HttpStatus.UNAUTHORIZED);
     }
 

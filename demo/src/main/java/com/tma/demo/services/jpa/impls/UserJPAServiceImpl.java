@@ -38,11 +38,7 @@ public class UserJPAServiceImpl implements IUserJPAService {
         //need to encrypt password before to save
         userJPA.setPassword(passwordEncoder.encode(userJPA.getPassword()));
         RoleJPA roleJPA = roleJPARepository.getByRoleString("USER");
-        System.out.println("ROLE JPA = "+roleJPA.getDescription());
         userJPA.getRoles().add(roleJPA);
-        userJPA.getRoles().stream().forEach(x->{
-            System.out.println("role of user "+x.getRoleId()+" - "+x.getRoleString());
-        });
         return userJPARepository.save(userJPA).toAuthorizationResponse();
     }
 
@@ -53,7 +49,7 @@ public class UserJPAServiceImpl implements IUserJPAService {
             logUtil.setLogUtil("Not found an user with id " + userId, logger);
             throw new NotFoundException("Not found an user with id " + userId);
         } else {
-            return userJPARepository.getById(UUIDHelper.toUUID(userId)).toAuthorizationResponse();
+            return userJPARepository.findByUserId(UUIDHelper.toUUID(userId)).toAuthorizationResponse();
         }
     }
 

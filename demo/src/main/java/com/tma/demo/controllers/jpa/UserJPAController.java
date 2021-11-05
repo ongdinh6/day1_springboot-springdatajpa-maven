@@ -41,7 +41,7 @@ public class UserJPAController {
     @GetMapping("/users/info")
     public DataResponse<AuthorizationResponse> getMyInfo() {
         String userId = MyUserDetail.getUserIns().getUserId().toString();
-        return new DataResponse<>(userJPAService.getById(userId), HttpStatus.OK, "Register an account is successful!");
+        return new DataResponse<>(userJPAService.getById(userId), HttpStatus.OK, "Request is called successfully!");
     }
 
     @PostMapping("/login")

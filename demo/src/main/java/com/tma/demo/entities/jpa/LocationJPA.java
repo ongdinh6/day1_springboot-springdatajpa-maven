@@ -5,8 +5,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -17,10 +20,15 @@ import java.util.UUID;
 @Entity
 public class LocationJPA {
     @Id
-    @Column(name = "location_id")
+    @Type(type = "pg-uuid")
+    @Column(name = "location_id", columnDefinition = "uuid")
     private UUID locationId;
     private String country;
     private String city;
-    @ManyToOne(fetch = FetchType.LAZY)
-    private SaleJPA saleJPA;
+    @OneToMany(
+            mappedBy = "locationJPA",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private Set<SaleJPA> saleJPAS = new HashSet<>();
 }

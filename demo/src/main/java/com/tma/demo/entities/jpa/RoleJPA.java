@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -19,7 +20,8 @@ import java.util.UUID;
 @Table(name = "role")
 public class RoleJPA {
     @Id
-    @Column(name = "role_id")
+    @Type(type = "pg-uuid")
+    @Column(name = "role_id", columnDefinition = "uuid")
     private UUID roleId;
     @Column(name = "role", nullable = false, unique = true)
     private String roleString;

@@ -3,6 +3,7 @@ package com.tma.demo.services.jpa.impls;
 import com.tma.demo.dtos.responses.MyUserDetail;
 import com.tma.demo.entities.jpa.UserJPA;
 import com.tma.demo.repositories.jpa.IUserJPARepository;
+import com.tma.demo.utils.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,7 @@ Here using the Online Bcrypt Generator you can generate the Bcrypt for a passwor
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
     Logger logger = LoggerFactory.getLogger(this.getClass());
+    LogUtil logUtil = LogUtil.getInstance();
     @Autowired
     private IUserJPARepository userJPARepository;
 
@@ -35,6 +37,8 @@ public class JwtUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserJPA userJPA = userJPARepository.findByUsername(username);
         if (userJPA == null) {
+            logger.warn("Username login is not exist!");
+            logUtil.setLogUtil("Username login is not exist!", logger);
             throw new UsernameNotFoundException("Not found an user with username \'" + username+"\'");
         }
         Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();

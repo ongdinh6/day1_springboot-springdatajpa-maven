@@ -4,12 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.cassandra.core.mapping.CassandraType;
-import org.springframework.data.cassandra.core.mapping.Column;
-import org.springframework.data.cassandra.core.mapping.PrimaryKey;
-import org.springframework.data.cassandra.core.mapping.Table;
+import org.springframework.data.cassandra.core.cql.PrimaryKeyType;
+import org.springframework.data.cassandra.core.mapping.*;
 
+import javax.persistence.CascadeType;
+import javax.persistence.OneToMany;
 import java.math.BigDecimal;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -18,18 +20,14 @@ import java.util.UUID;
 @AllArgsConstructor
 @Table("sales")
 public class Sale {
-    @PrimaryKey
+    @PrimaryKeyColumn(name = "product_id", ordinal = 0, type = PrimaryKeyType.PARTITIONED)
     @CassandraType(type = CassandraType.Name.UUID)
-    @Column("product_id")
-    private UUID saleId;
-    @CassandraType(type = CassandraType.Name.UUID)
-    @Column("product_id")
     private UUID productId;
     @CassandraType(type = CassandraType.Name.UUID)
-    @Column("time_id")
+    @PrimaryKeyColumn(name = "time_id", ordinal = 1, type = PrimaryKeyType.PARTITIONED)
     private UUID timeId;
+    @PrimaryKeyColumn(name = "location_id", ordinal = 2, type = PrimaryKeyType.PARTITIONED)
     @CassandraType(type = CassandraType.Name.UUID)
-    @Column("location_id")
     private UUID locationId;
     private BigDecimal dollars;
 }
