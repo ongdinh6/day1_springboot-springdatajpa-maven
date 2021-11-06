@@ -1,0 +1,12 @@
+2021-11-06 12:27:11,770 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2548 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-06 12:27:11,779 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-06 12:27:11,779 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-06 12:27:35,099 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-06 12:37:54,717 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11888 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-06 12:37:54,728 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-06 12:37:54,731 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-06 12:38:14,737 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-06 12:38:25,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 33.018 seconds (JVM running for 36.738)
+2021-11-06 17:46:52,729 WARN com.tma.demo.configs.security.JwtRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-11-06 17:46:52,924 DEBUG com.tma.demo.services.jpa.impls.ProductJPAServiceImpl [http-nio-8080-exec-2] start - class com.tma.demo.services.jpa.impls.ProductJPAServiceImpl - getById() method
+2021-11-06 17:46:52,928 ERROR com.tma.demo.utils.UUIDHelper [http-nio-8080-exec-2] UUIDHelper - Invalid UUID string: tf - com.tma.demo.utils.UUIDHelper

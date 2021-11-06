@@ -32,7 +32,7 @@
 
     <appender name="SevereRollingFile"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOGS}/severe-logger.log</file>
+        <file>${LOGS}/severe-error-logger.log</file>
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>WARN</level>
         </filter>
@@ -53,6 +53,30 @@
         </rollingPolicy>
     </appender>
 
+    <!-- LOG debug level for each method at the begin and end that method -->
+    <appender name="DebuggingRollingFile"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/debug-method-logger.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        </encoder>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/debug-method-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
     <!-- LOG everything at INFO level -->
     <root level="info">
         <appender-ref ref="Console"/>
@@ -63,6 +87,7 @@
         <appender-ref ref="RollingFile"/>
         <appender-ref ref="Console"/>
         <appender-ref ref="SevereRollingFile"/>
+        <appender-ref ref="DebuggingRollingFile"/>
     </logger>
 
 </configuration>

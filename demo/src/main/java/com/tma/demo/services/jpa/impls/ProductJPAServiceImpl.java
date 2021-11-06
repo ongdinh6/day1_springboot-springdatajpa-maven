@@ -49,12 +49,15 @@ public class ProductJPAServiceImpl implements IProductJPAService {
 
     @Override
     public ProductResponse getById(String productId) {
+        logger.debug("start - "+this.getClass()+" - getById() method");
         if (!productJPARepository.existsById(UUIDHelper.toUUID(productId))) {
             logger.error(this.getClass().getSimpleName() + "-" + "not found product with id: " + productId + "-" + logger.getName());
             logUtil.setLogUtil("Not found product with id " + productId, logger);
+            logger.debug("end - "+this.getClass()+" - getById() method");
             throw new NotFoundException("Not found product with id: " + productId);
         } else {
             ProductJPA productJPA = productJPARepository.getById(UUID.fromString(productId));
+            logger.debug("end - "+this.getClass()+" - getById() method");
             return productJPA.toProductResponse();
         }
     }

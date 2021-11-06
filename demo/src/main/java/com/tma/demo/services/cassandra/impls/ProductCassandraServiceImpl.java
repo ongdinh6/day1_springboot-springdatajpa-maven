@@ -7,6 +7,7 @@ import com.tma.demo.exceptions.InternalServerException;
 import com.tma.demo.exceptions.NotFoundException;
 import com.tma.demo.repositories.cassandra.IProductCassandraRepository;
 import com.tma.demo.services.cassandra.IProductCassandraService;
+import com.tma.demo.utils.DateTimeUtil;
 import com.tma.demo.utils.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,12 +27,15 @@ public class ProductCassandraServiceImpl implements IProductCassandraService {
 
     @Override
     public ProductResponse save(ProductRequest productRequest) {
+        logger.debug("start:"+new DateTimeUtil().getDateTime() +this.getClass()+"- save() method");
         Product productToSave;
         if (null == (productToSave = productCassandraRepository.save(productRequest.toCassandraObject()))) {
             logger.error("Server cannot save product. Error Internal Server Exception.");
+            logger.debug("end:"+new DateTimeUtil().getDateTime() +this.getClass()+"- save() method");
             logUtil.setLogUtil(this.getClass()+"- error: Internal Server Exception", logger);
             throw new InternalServerException("Server was be failed to save product !");
         } else {
+            logger.debug("end:"+new DateTimeUtil().getDateTime() +this.getClass()+"- save() method");
             return productToSave.toProductResponse();
         }
     }
