@@ -34,15 +34,15 @@
 <!--    </changeSet>-->
 
 
-    <!-- changeSet 1: create product table -->
-<!--    <changeSet id="changeset-drop-product-if-exist" author="omdinh">-->
+    <!-- changeSet 1: create productElasticsearch table -->
+<!--    <changeSet id="changeset-drop-productElasticsearch-if-exist" author="omdinh">-->
 <!--        <preConditions>-->
-<!--            <tableExists tableName="product"></tableExists>-->
+<!--            <tableExists tableName="productElasticsearch"></tableExists>-->
 <!--        </preConditions>-->
-<!--        <dropTable tableName="product"></dropTable>-->
+<!--        <dropTable tableName="productElasticsearch"></dropTable>-->
 <!--    </changeSet>-->
-<!--    <changeSet id="changeset-create-product-table" author="omdinh">-->
-<!--        <createTable tableName="product">-->
+<!--    <changeSet id="changeset-create-productElasticsearch-table" author="omdinh">-->
+<!--        <createTable tableName="productElasticsearch">-->
 <!--            <column name="product_id" type="${uuid_type}">-->
 <!--                <constraints nullable="false" unique="true"/>-->
 <!--            </column>-->
@@ -51,12 +51,12 @@
 <!--            <column name="inventory" type="varchar(255)"/>-->
 <!--            <column name="sale_id" type="varchar(255)"/>-->
 <!--        </createTable>-->
-<!--        &lt;!&ndash; ManyToOne Sales table (table product has a foreign-key with sale_id value &ndash;&gt;-->
+<!--        &lt;!&ndash; ManyToOne Sales table (table productElasticsearch has a foreign-key with sale_id value &ndash;&gt;-->
 <!--        &lt;!&ndash; end relationship mapping &ndash;&gt;-->
 <!--    </changeSet>-->
 
-<!--    <changeSet id="changeset-update-product-table" author="omdinh">-->
-<!--        <addForeignKeyConstraint baseTableName="product"-->
+<!--    <changeSet id="changeset-update-productElasticsearch-table" author="omdinh">-->
+<!--        <addForeignKeyConstraint baseTableName="productElasticsearch"-->
 <!--                                 baseColumnNames="sale_id"-->
 <!--                                 constraintName="fk_sale_id"-->
 <!--                                 referencedTableName="sales"-->

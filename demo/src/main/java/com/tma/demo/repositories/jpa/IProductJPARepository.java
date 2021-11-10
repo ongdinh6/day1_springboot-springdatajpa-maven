@@ -8,4 +8,5 @@ import java.util.UUID;
 
 @Repository
 public interface IProductJPARepository extends JpaRepository<ProductJPA, UUID> {
+    ProductJPA findByClazz(String clazz);
 }

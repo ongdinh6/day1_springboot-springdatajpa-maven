@@ -60,4 +60,9 @@ public class ProductCassandraServiceImpl implements IProductCassandraService {
             return product;
         }
     }
+
+    @Override
+    public Product findByClazz(String clazz) {
+        return productCassandraRepository.findByClazz(clazz);
+    }
 }

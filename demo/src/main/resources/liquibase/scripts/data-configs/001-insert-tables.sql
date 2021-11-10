@@ -1,9 +1,9 @@
 
--- product
--- insert into product(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz1', 'product-inventory-1');
--- insert into product(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz2', 'product-inventory-2');
--- insert into product(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz3', 'product-inventory-3');
--- insert into product(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz4', 'product-inventory-4');
+-- productElasticsearch
+-- insert into productElasticsearch(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz1', 'productElasticsearch-inventory-1');
+-- insert into productElasticsearch(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz2', 'productElasticsearch-inventory-2');
+-- insert into productElasticsearch(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz3', 'productElasticsearch-inventory-3');
+-- insert into productElasticsearch(product_id, item, clazz, inventory) values (uuid_generate_v4(), 10, 'clazz4', 'productElasticsearch-inventory-4');
 
 -- times
 -- insert into times(time_id, month, quarter, year) values (uuid_generate_v4(), 10, 3, 2021);

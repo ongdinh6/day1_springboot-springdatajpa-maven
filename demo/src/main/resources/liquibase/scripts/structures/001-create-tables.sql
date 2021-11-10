@@ -1,5 +1,5 @@
-drop table if exists product;
-create table product
+drop table if exists productElasticsearch;
+create table productElasticsearch
 (
     product_id uuid primary key not null,
     item       integer,

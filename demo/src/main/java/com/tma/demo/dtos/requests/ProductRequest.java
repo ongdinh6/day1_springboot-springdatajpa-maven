@@ -14,14 +14,14 @@ import java.util.UUID;
 public class ProductRequest {
     private int item;
     private String clazz;
-    private String investory;
+    private String inventory;
 
     public Product toCassandraObject() {
         Product product = new Product();
         product.setProductId(UUID.randomUUID());
         product.setItem(item);
         product.setClazz(clazz);
-        product.setInventory(investory);
+        product.setInventory(inventory);
         return product;
     }
     public ProductJPA toJpaObject() {
@@ -29,7 +29,7 @@ public class ProductRequest {
         product.setProductId(UUID.randomUUID());
         product.setItem(item);
         product.setClazz(clazz);
-        product.setInventory(investory);
+        product.setInventory(inventory);
         return product;
     }
 }

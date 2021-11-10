@@ -16,9 +16,9 @@ import java.util.List;
  * Code was referenced at https://github.com/springframeworkguru/spring-boot-cassandra-example
  */
 @Configuration
-@ComponentScan("com.tma.demo")
+@ComponentScan("com.tma.demo.repositories.cassandra")
 @PropertySource(value = {"classpath:application.properties"})
-@EnableCassandraRepositories(basePackages = "com.tma.demo.repositories")
+@EnableCassandraRepositories(basePackages = "com.tma.demo.repositories.cassandra")
 public class CassandraDBConfig extends AbstractCassandraConfiguration {
     public static final String KEYSPACE = "my_data";
 

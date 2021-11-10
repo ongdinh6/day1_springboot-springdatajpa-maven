@@ -3066,8 +3066,8 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.tma.demo.entities.jpa.ProductJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ProductJPA
-2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.tma.demo.entities.jpa.ProductJPA on table product
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=product_id, insertable=true, updatable=true, unique=false}
+2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.tma.demo.entities.jpa.ProductJPA on table productElasticsearch
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(productElasticsearch), mappingColumn=product_id, insertable=true, updatable=true, unique=false}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.tma.demo.entities.jpa.ProductJPA] is safe
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.tma.demo.entities.jpa.ProductJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property productId with lazy=false
@@ -3075,23 +3075,23 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for productId
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - Building property productId
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(product_id)]), productId, assigned, , ...)
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=clazz, insertable=true, updatable=true, unique=false}
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(productElasticsearch), mappingColumn=clazz, insertable=true, updatable=true, unique=false}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property clazz with lazy=false
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.tma.demo.entities.jpa.ProductJPA:clazz]
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for clazz
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - Building property clazz
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=investory, insertable=true, updatable=true, unique=false}
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(productElasticsearch), mappingColumn=investory, insertable=true, updatable=true, unique=false}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property investory with lazy=false
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.tma.demo.entities.jpa.ProductJPA:investory]
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for investory
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - Building property investory
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=item, insertable=true, updatable=true, unique=false}
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(productElasticsearch), mappingColumn=item, insertable=true, updatable=true, unique=false}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property item with lazy=false
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.tma.demo.entities.jpa.ProductJPA:item]
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for item
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - Building property item
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(product), mappingColumn=salejpa, insertable=true, updatable=true, unique=false}
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(productElasticsearch), mappingColumn=salejpa, insertable=true, updatable=true, unique=false}
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.PropertyBinder - Building property saleJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.tma.demo.entities.jpa.RoleJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
@@ -3250,7 +3250,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for password
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for username
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [location_id] to be non-null as it is part of the primary key for table [location]
-2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [product_id] to be non-null as it is part of the primary key for table [product]
+2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [product_id] to be non-null as it is part of the primary key for table [productElasticsearch]
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [role_id] to be non-null as it is part of the primary key for table [role]
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [sale_id] to be non-null as it is part of the primary key for table [sales]
 2021-11-04 11:58:52 [restartedMain] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [time_id] to be non-null as it is part of the primary key for table [time]
@@ -3267,7 +3267,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:58:52 [restartedMain] DEBUG o.hibernate.cfg.CollectionSecondPass - Mapped collection key: salejpa_sale_id, one-to-many: com.tma.demo.entities.jpa.LocationJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG o.hibernate.cfg.CollectionSecondPass - Second pass for collection: com.tma.demo.entities.jpa.SaleJPA.products
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.CollectionBinder - Binding a OneToMany: com.tma.demo.entities.jpa.SaleJPA.products through a foreign key
-2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.CollectionBinder - Mapping collection: com.tma.demo.entities.jpa.SaleJPA.products -> product
+2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.CollectionBinder - Mapping collection: com.tma.demo.entities.jpa.SaleJPA.products -> productElasticsearch
 2021-11-04 11:58:52 [restartedMain] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property com.tma.demo.entities.jpa.ProductJPA.saleJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG o.hibernate.cfg.CollectionSecondPass - Mapped collection key: salejpa_sale_id, one-to-many: com.tma.demo.entities.jpa.ProductJPA
 2021-11-04 11:58:52 [restartedMain] DEBUG o.hibernate.cfg.CollectionSecondPass - Second pass for collection: com.tma.demo.entities.jpa.SaleJPA.times
@@ -3453,16 +3453,16 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update location set salejpa_sale_id=null where salejpa_sale_id=? and location_id=?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update location set salejpa_sale_id=null where salejpa_sale_id=?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: com.tma.demo.entities.jpa.SaleJPA.products
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: update product set salejpa_sale_id=? where product_id=?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update product set  where product_id=?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update product set salejpa_sale_id=null where salejpa_sale_id=? and product_id=?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update product set salejpa_sale_id=null where salejpa_sale_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: update productElasticsearch set salejpa_sale_id=? where product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update productElasticsearch set  where product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update productElasticsearch set salejpa_sale_id=null where salejpa_sale_id=? and product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update productElasticsearch set salejpa_sale_id=null where salejpa_sale_id=?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.tma.demo.entities.jpa.ProductJPA
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select product_id from product where product_id =?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select productjpa_.product_id, productjpa_.clazz as clazz2_1_, productjpa_.investory as investor3_1_, productjpa_.item as item4_1_, productjpa_.salejpa_sale_id as salejpa_5_1_ from product productjpa_ where productjpa_.product_id=?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into product (clazz, investory, item, salejpa_sale_id, product_id) values (?, ?, ?, ?, ?)
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update product set clazz=?, investory=?, item=?, salejpa_sale_id=? where product_id=?
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from product where product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select product_id from productElasticsearch where product_id =?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select productjpa_.product_id, productjpa_.clazz as clazz2_1_, productjpa_.investory as investor3_1_, productjpa_.item as item4_1_, productjpa_.salejpa_sale_id as salejpa_5_1_ from productElasticsearch productjpa_ where productjpa_.product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into productElasticsearch (clazz, investory, item, salejpa_sale_id, product_id) values (?, ?, ?, ?, ?)
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update productElasticsearch set clazz=?, investory=?, item=?, salejpa_sale_id=? where product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from productElasticsearch where product_id=?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@241f3cf4]
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : clazz
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : investory
@@ -3481,7 +3481,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
           - alias suffix - 0_
           - suffixed key columns - {product_1_1_0_}
 
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.tma.demo.entities.jpa.ProductJPA [NONE]: select productjpa0_.product_id as product_1_1_0_, productjpa0_.clazz as clazz2_1_0_, productjpa0_.investory as investor3_1_0_, productjpa0_.item as item4_1_0_, productjpa0_.salejpa_sale_id as salejpa_5_1_0_ from product productjpa0_ where productjpa0_.product_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.tma.demo.entities.jpa.ProductJPA [NONE]: select productjpa0_.product_id as product_1_1_0_, productjpa0_.clazz as clazz2_1_0_, productjpa0_.investory as investor3_1_0_, productjpa0_.item as item4_1_0_, productjpa0_.salejpa_sale_id as salejpa_5_1_0_ from productElasticsearch productjpa0_ where productjpa0_.product_id=?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.tma.demo.entities.jpa.RoleJPA
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select role_id from role where role_id =?
 2021-11-04 11:58:53 [restartedMain] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select rolejpa_.role_id, rolejpa_.description as descript2_2_, rolejpa_.role as role3_2_ from role rolejpa_ where rolejpa_.role_id=?
@@ -3749,7 +3749,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
                 - alias suffix - 1_
                 - suffixed key columns - {product_1_1_1_}
 
-2021-11-04 11:58:53 [restartedMain] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection com.tma.demo.entities.jpa.SaleJPA.products: select products0_.salejpa_sale_id as salejpa_5_1_0_, products0_.product_id as product_1_1_0_, products0_.product_id as product_1_1_1_, products0_.clazz as clazz2_1_1_, products0_.investory as investor3_1_1_, products0_.item as item4_1_1_, products0_.salejpa_sale_id as salejpa_5_1_1_ from product products0_ where products0_.salejpa_sale_id=?
+2021-11-04 11:58:53 [restartedMain] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection com.tma.demo.entities.jpa.SaleJPA.products: select products0_.salejpa_sale_id as salejpa_5_1_0_, products0_.product_id as product_1_1_0_, products0_.product_id as product_1_1_1_, products0_.clazz as clazz2_1_1_, products0_.investory as investor3_1_1_, products0_.item as item4_1_1_, products0_.salejpa_sale_id as salejpa_5_1_1_ from productElasticsearch products0_ where products0_.salejpa_sale_id=?
 2021-11-04 11:58:53 [RMI TCP Connection(3)-11.11.21.75] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-11.11.21.75: (port 60889) op = 82
 2021-11-04 11:58:53 [RMI TCP Connection(3)-11.11.21.75] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-11.11.21.75: (port 60889) op = 80
 2021-11-04 11:58:54 [RMI TCP Connection(3)-11.11.21.75] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-11.11.21.75: (port 60889) op = 82
@@ -3792,7 +3792,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 	at java.lang.Thread.run(Thread.java:748)
 2021-11-04 11:58:54 [RMI TCP Connection(3)-11.11.21.75] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(3)-11.11.21.75: (port 60889) op = 80
 2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : location
-2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : product
+2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : productElasticsearch
 2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : role
 2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : sales
 2021-11-04 11:58:54 [restartedMain] DEBUG org.hibernate.mapping.Table - No alter strings for table : time
@@ -5707,7 +5707,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2021-11-04 11:59:01 [restartedMain] DEBUG o.s.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
 2021-11-04 11:59:01 [restartedMain] DEBUG o.s.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
 2021-11-04 11:59:01 [restartedMain] DEBUG o.s.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
-2021-11-04 11:59:02 [restartedMain] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL statement [CREATE TABLE IF NOT EXISTS product (clazz text, investory text, item int, productid uuid, PRIMARY KEY (productid));]
+2021-11-04 11:59:02 [restartedMain] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL statement [CREATE TABLE IF NOT EXISTS productElasticsearch (clazz text, investory text, item int, productid uuid, PRIMARY KEY (productid));]
 2021-11-04 11:59:02 [s1-io-4] DEBUG c.d.o.d.i.c.channel.InFlightHandler - [s1|id: 0x83e9548e, L:/127.0.0.1:60952 - R:localhost/127.0.0.1:9042] Got last response on in-flight stream id 0, completing and releasing
 2021-11-04 11:59:02 [restartedMain] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL statement [CREATE TABLE IF NOT EXISTS sales (dollars decimal, location_id uuid, product_id uuid, saleid uuid, time_id uuid, PRIMARY KEY (saleid));]
 2021-11-04 11:59:02 [s1-io-4] DEBUG c.d.o.d.i.c.channel.InFlightHandler - [s1|id: 0x83e9548e, L:/127.0.0.1:60952 - R:localhost/127.0.0.1:9042] Got last response on in-flight stream id 0, completing and releasing

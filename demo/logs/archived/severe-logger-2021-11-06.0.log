@@ -1,0 +1,2 @@
+2021-11-06 17:46:52,729 WARN com.tma.demo.configs.security.JwtRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-11-06 17:46:52,928 ERROR com.tma.demo.utils.UUIDHelper [http-nio-8080-exec-2] UUIDHelper - Invalid UUID string: tf - com.tma.demo.utils.UUIDHelper

@@ -11,4 +11,5 @@ public interface IProductCassandraService {
     ProductResponse save(ProductRequest productRequest);
     List<ProductResponse> getAllProduct();
     Product getById(UUID productId);
+    Product findByClazz(String clazz);
 }
