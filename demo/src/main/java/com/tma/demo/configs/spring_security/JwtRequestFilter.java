@@ -1,4 +1,4 @@
-package com.tma.demo.configs.security;
+package com.tma.demo.configs.spring_security;
 
 import com.tma.demo.services.jpa.impls.JwtUserDetailsService;
 import io.jsonwebtoken.ExpiredJwtException;

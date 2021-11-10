@@ -5,6 +5,7 @@ import com.tma.demo.dtos.requests.ProductRequest;
 import com.tma.demo.dtos.responses.ProductResponse;
 import com.tma.demo.services.cassandra.IProductCassandraService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

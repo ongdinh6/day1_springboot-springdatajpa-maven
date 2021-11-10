@@ -1,4 +1,4 @@
-package com.tma.demo.configs.security;
+package com.tma.demo.configs.spring_security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -1,0 +1,162 @@
+2021-11-09 08:27:49,252 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14644 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 08:27:49,745 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 08:27:49,746 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 08:28:23,302 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 08:28:40,278 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 53.493 seconds (JVM running for 58.969)
+2021-11-09 09:23:07,526 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 09:23:07,533 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 09:23:07,534 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 09:23:27,555 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 09:23:36,965 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 30.871 seconds (JVM running for 34.633)
+2021-11-09 15:45:45,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 15:45:45,964 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 15:45:45,965 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 15:46:11,232 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 15:46:11,232 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 15:46:11,232 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 15:46:25,951 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 15:46:29,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 3168 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 15:46:29,420 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 15:46:29,485 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 15:46:38,517 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 27.532 seconds (JVM running for 23016.184)
+2021-11-09 16:09:42,244 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7864 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:09:42,247 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:09:42,282 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:14:02,024 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:14:02,025 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:14:02,025 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:14:02,901 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 12636 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:14:02,904 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:14:02,911 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:19:54,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:19:54,442 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:19:54,446 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:20:12,831 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15716 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:20:12,866 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:20:12,878 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:20:28,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15716 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:20:28,342 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:20:28,614 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:22:34,072 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:22:34,073 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:22:34,073 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:22:41,257 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 12180 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:22:41,261 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:22:41,271 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:22:58,525 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 12180 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:22:58,526 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:22:58,528 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:24:51,063 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:24:51,064 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:24:51,065 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:24:57,513 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:24:58,991 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 3928 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:24:58,997 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:24:59,003 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:25:06,498 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 15.573 seconds (JVM running for 25324.166)
+2021-11-09 16:25:17,429 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 21.091 seconds (JVM running for 25.251)
+2021-11-09 16:26:30,547 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:26:30,549 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:26:30,550 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:26:34,863 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 17012 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:26:34,871 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:26:34,883 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:26:38,301 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:26:41,946 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 11.497 seconds (JVM running for 25419.613)
+2021-11-09 16:26:52,599 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 20.722 seconds (JVM running for 23.954)
+2021-11-09 16:28:11,751 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 9296 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:28:11,752 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:28:11,752 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:28:16,361 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 200 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:28:16,365 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:28:16,370 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:28:19,370 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:28:23,071 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 11.436 seconds (JVM running for 25520.739)
+2021-11-09 16:28:33,293 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 19.981 seconds (JVM running for 23.452)
+2021-11-09 16:29:42,309 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13064 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:29:42,317 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:29:42,317 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:29:55,708 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:30:05,041 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 24.35 seconds (JVM running for 27.944)
+2021-11-09 16:30:26,731 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13684 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:30:26,733 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:30:26,829 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:30:41,173 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 17.013 seconds (JVM running for 20.026)
+2021-11-09 16:39:16,970 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 4724 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:39:16,977 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:39:16,978 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:39:33,323 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:39:43,921 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 29.675 seconds (JVM running for 33.71)
+2021-11-09 16:40:07,748 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1416 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:40:07,751 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:40:07,802 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:40:23,109 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 17.886 seconds (JVM running for 21.027)
+2021-11-09 16:42:52,058 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 5508 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:42:52,061 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:42:52,091 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:43:08,677 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 19.402 seconds (JVM running for 22.739)
+2021-11-09 16:46:39,011 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11852 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:46:39,019 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:46:39,020 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 16:46:54,405 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 16:46:57,412 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8452 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 16:46:57,415 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 16:46:57,422 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 16:47:11,534 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 33.955 seconds (JVM running for 37.408)
+2021-11-09 16:47:16,325 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 21.588 seconds (JVM running for 25.488)
+2021-11-09 17:01:11,808 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8876 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:01:11,965 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:01:11,969 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:01:24,073 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 14.499 seconds (JVM running for 17.185)
+2021-11-09 17:02:43,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 17588 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:02:43,029 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:02:43,035 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:02:56,031 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 14.675 seconds (JVM running for 22.373)
+2021-11-09 17:05:52,309 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11852 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:05:52,310 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:05:52,310 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 17:05:57,342 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 17:06:00,772 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 8.573 seconds (JVM running for 1166.645)
+2021-11-09 17:06:08,046 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11852 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:06:08,046 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:06:08,047 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 17:06:12,927 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-09 17:06:18,374 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 10.422 seconds (JVM running for 1184.242)
+2021-11-09 17:06:24,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2456 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:06:24,972 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:06:25,007 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:06:42,367 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 20.058 seconds (JVM running for 23.232)
+2021-11-09 17:08:16,004 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 17780 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:08:16,007 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:08:16,047 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:08:31,420 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 17.858 seconds (JVM running for 21.027)
+2021-11-09 17:10:20,610 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 3396 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:10:20,638 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:10:20,645 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:10:36,224 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 18.164 seconds (JVM running for 21.188)
+2021-11-09 17:20:01,138 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 17132 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:20:01,141 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:20:01,145 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:20:17,430 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 18.79 seconds (JVM running for 21.92)
+2021-11-09 17:21:02,416 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10352 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:21:02,418 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:21:02,425 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:21:23,368 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 23.719 seconds (JVM running for 27.796)
+2021-11-09 17:28:22,266 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 18384 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 17:28:22,270 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 17:28:22,280 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 17:28:36,211 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 16.393 seconds (JVM running for 19.514)
+2021-11-09 17:28:36,506 DEBUG com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] start:2021-11-09T10:28:36.342Zclass com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl- save() method
+2021-11-09 17:28:36,550 ERROR com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] Server cannot save product. Error Internal Server Exception.
+2021-11-09 17:28:36,575 DEBUG com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] end:2021-11-09T10:28:36.575Zclass com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl- save() method
+2021-11-09 23:22:31,012 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 16160 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 23:22:31,028 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 23:22:31,149 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 23:22:45,300 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 16.847 seconds (JVM running for 20.437)
+2021-11-09 23:22:45,577 DEBUG com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] start:2021-11-09T16:22:45.487Zclass com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl- save() method
+2021-11-09 23:22:45,579 ERROR com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] Server cannot save product. Error Internal Server Exception.
+2021-11-09 23:22:45,580 DEBUG com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl [main] end:2021-11-09T16:22:45.580Zclass com.tma.demo.services.cassandra.impls.ProductCassandraServiceImpl- save() method
+2021-11-09 23:27:40,549 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14808 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-09 23:27:40,554 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-09 23:27:40,691 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-09 23:27:55,404 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductTest in 17.436 seconds (JVM running for 20.51)

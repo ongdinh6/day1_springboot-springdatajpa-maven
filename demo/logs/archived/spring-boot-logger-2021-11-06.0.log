@@ -7,6 +7,6 @@
 2021-11-06 12:37:54,731 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
 2021-11-06 12:38:14,737 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
 2021-11-06 12:38:25,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 33.018 seconds (JVM running for 36.738)
-2021-11-06 17:46:52,729 WARN com.tma.demo.configs.security.JwtRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-11-06 17:46:52,729 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
 2021-11-06 17:46:52,924 DEBUG com.tma.demo.services.jpa.impls.ProductJPAServiceImpl [http-nio-8080-exec-2] start - class com.tma.demo.services.jpa.impls.ProductJPAServiceImpl - getById() method
 2021-11-06 17:46:52,928 ERROR com.tma.demo.utils.UUIDHelper [http-nio-8080-exec-2] UUIDHelper - Invalid UUID string: tf - com.tma.demo.utils.UUIDHelper

@@ -1,6 +1,7 @@
 package com.tma.demo.dtos.requests;
 
 import com.tma.demo.entities.jpa.UserJPA;
+import com.tma.demo.exceptions.BadRequestException;
 import lombok.*;
 
 import java.util.UUID;
@@ -15,15 +16,20 @@ public class UserRequest {
     private String password;
     private String confirmPassword;
 
-    public boolean isValidPassword(){
-        return password.length() >= 5;
+    public boolean isValidPassword() {
+        String pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$";
+        if (!password.matches(pattern)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
-    public boolean isValidConfirmPassword(){
+    public boolean isValidConfirmPassword() {
         return password.equals(confirmPassword);
     }
 
-    public UserJPA toUserJPA(){
+    public UserJPA toUserJPA() {
         UserJPA userJPA = new UserJPA();
         userJPA.setUserId(UUID.randomUUID());
         userJPA.setUsername(username);

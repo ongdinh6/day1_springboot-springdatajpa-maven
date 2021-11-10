@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
-@Repository("productCassandraRepository")
+@Repository
 public interface IProductCassandraRepository extends CrudRepository<Product, UUID> {
     Product findByClazz(String clazz);
 }

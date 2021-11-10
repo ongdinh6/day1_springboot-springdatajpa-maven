@@ -1,5 +1,6 @@
 package com.tma.demo.utils;
 
+import com.tma.demo.exceptions.BadRequestException;
 import com.tma.demo.exceptions.InternalServerException;
 import lombok.Getter;
 import lombok.Setter;
@@ -22,7 +23,7 @@ public class UUIDHelper {
         }catch (IllegalArgumentException e){
             logger.error("UUIDHelper - "+e.getMessage()+" - "+logger.getName());
             logUtil.setLogUtil("Data request is invalid! Error with "+e.getMessage(), logger);
-            throw new InternalServerException("Data request is invalid! Error with "+e.getMessage());
+            throw new BadRequestException("Data request is invalid! Error with "+e.getMessage());
         }
         return uuid;
     }

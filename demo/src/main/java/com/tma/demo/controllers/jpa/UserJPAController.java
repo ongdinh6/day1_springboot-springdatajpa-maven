@@ -1,6 +1,6 @@
 package com.tma.demo.controllers.jpa;
 
-import com.tma.demo.configs.security.JwtTokenUtil;
+import com.tma.demo.configs.spring_security.JwtTokenUtil;
 import com.tma.demo.dtos.DataResponse;
 import com.tma.demo.dtos.requests.LoginFormRequest;
 import com.tma.demo.dtos.requests.UserRequest;
