@@ -9,4 +9,5 @@ import java.util.UUID;
 @Repository
 public interface IProductCassandraRepository extends CrudRepository<Product, UUID> {
     Product findByClazz(String clazz);
+    Product getByProductId(UUID id);
 }

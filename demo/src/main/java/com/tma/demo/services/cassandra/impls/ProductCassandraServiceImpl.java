@@ -51,7 +51,7 @@ public class ProductCassandraServiceImpl implements IProductCassandraService {
 
     @Override
     public Product getById(UUID productId) {
-        Product product = productCassandraRepository.findById(productId).get();
+        Product product = productCassandraRepository.getByProductId(productId);
         if(null == product) {
             logger.warn("Product not found with id "+productId);
             logUtil.setLogUtil(this.getClass()+"- error: Not Found Exception", logger);
