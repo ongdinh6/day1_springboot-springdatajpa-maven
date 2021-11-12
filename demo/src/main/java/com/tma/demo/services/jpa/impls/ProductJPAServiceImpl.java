@@ -1,8 +1,11 @@
 package com.tma.demo.services.jpa.impls;
 
+import com.querydsl.core.types.Predicate;
 import com.tma.demo.entities.jpa.ProductJPA;
+import com.tma.demo.entities.jpa.QProductJPA;
 import com.tma.demo.exceptions.InternalServerException;
 import com.tma.demo.exceptions.NotFoundException;
+import com.tma.demo.querydsl_entities.ProductJpaPredicate;
 import com.tma.demo.repositories.jpa.IProductJPARepository;
 import com.tma.demo.services.jpa.IProductJPAService;
 import com.tma.demo.utils.LogUtil;
@@ -12,6 +15,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
 
@@ -57,4 +62,16 @@ public class ProductJPAServiceImpl implements IProductJPAService {
         }
     }
 
+    @Override
+    public List<ProductJPA> getAllProductByQueryDsl(String clazz) {
+        List<ProductJPA> products = new ArrayList<>();
+
+        Iterator<ProductJPA> iterators = productJPARepository.findAll(ProductJpaPredicate.getAllByClazzContains(clazz)).iterator();
+
+        while (iterators.hasNext()) {
+            ProductJPA p = iterators.next();
+            products.add(p);
+        }
+        return products;
+    }
 }

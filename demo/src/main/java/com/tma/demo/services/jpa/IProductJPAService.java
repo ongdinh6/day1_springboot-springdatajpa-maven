@@ -8,5 +8,8 @@ import java.util.List;
 public interface IProductJPAService {
     ProductJPA save(ProductJPA productJpa);
     List<ProductJPA> getAllProduct();
+    List<ProductJPA> getAllProductByQueryDsl(String clazz);
     ProductJPA getById(String productId);
+
+
 }
