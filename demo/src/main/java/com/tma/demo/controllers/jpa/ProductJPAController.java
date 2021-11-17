@@ -1,16 +1,13 @@
 package com.tma.demo.controllers.jpa;
 
-import com.querydsl.core.types.Predicate;
 import com.tma.demo.dtos.DataResponse;
 import com.tma.demo.dtos.requests.RequestSingleBodyType;
 import com.tma.demo.dtos.responses.ProductResponse;
 import com.tma.demo.entities.cassandra.Product;
-import com.tma.demo.entities.jpa.ProductJPA;
 import com.tma.demo.services.cassandra.IProductCassandraService;
 import com.tma.demo.services.jpa.IProductJPAService;
 import com.tma.demo.utils.UUIDHelper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.querydsl.binding.QuerydslPredicate;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

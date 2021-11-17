@@ -20,16 +20,16 @@
                 class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
-<!--        <rollingPolicy-->
-<!--                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
-<!--            &lt;!&ndash; rollover daily and when the file reaches 10 MegaBytes &ndash;&gt;-->
-<!--            <fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log-->
-<!--            </fileNamePattern>-->
-<!--            <timeBasedFileNamingAndTriggeringPolicy-->
-<!--                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
-<!--                <maxFileSize>10MB</maxFileSize>-->
-<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
-<!--        </rollingPolicy>-->
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
     </appender>
 
     <appender name="SevereRollingFile"
@@ -43,16 +43,16 @@
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
 
-<!--        <rollingPolicy-->
-<!--                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
-<!--            &lt;!&ndash; rollover daily and when the file reaches 10 MegaBytes &ndash;&gt;-->
-<!--            <fileNamePattern>${LOGS}/archived/severe-logger-%d{yyyy-MM-dd}.%i.log-->
-<!--            </fileNamePattern>-->
-<!--            <timeBasedFileNamingAndTriggeringPolicy-->
-<!--                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
-<!--                <maxFileSize>10MB</maxFileSize>-->
-<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
-<!--        </rollingPolicy>-->
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/severe-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
     </appender>
 
     <!-- LOG debug level for each method at the begin and end that method -->
@@ -67,16 +67,16 @@
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
 
-<!--        <rollingPolicy-->
-<!--                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
-<!--            &lt;!&ndash; rollover daily and when the file reaches 10 MegaBytes &ndash;&gt;-->
-<!--            <fileNamePattern>${LOGS}/archived/debug-method-logger-%d{yyyy-MM-dd}.%i.log-->
-<!--            </fileNamePattern>-->
-<!--            <timeBasedFileNamingAndTriggeringPolicy-->
-<!--                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
-<!--                <maxFileSize>10MB</maxFileSize>-->
-<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
-<!--        </rollingPolicy>-->
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily and when the file reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/debug-method-logger-%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
     </appender>
 
     <!-- LOG everything at INFO level -->

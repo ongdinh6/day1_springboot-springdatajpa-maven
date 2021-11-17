@@ -10,6 +10,10 @@ import com.tma.demo.dtos.responses.AuthorizationResponse;
 import com.tma.demo.dtos.responses.MyUserDetail;
 import com.tma.demo.entities.jpa.RoleJPA;
 import com.tma.demo.entities.jpa.UserJPA;
+import com.tma.demo.repositories.cassandra.IProductCassandraRepository;
+import com.tma.demo.repositories.jpa.*;
+import com.tma.demo.services.jpa.ISaleJPAService;
+import com.tma.demo.services.jpa.ITimeJPAService;
 import com.tma.demo.services.jpa.IUserJPAService;
 import com.tma.demo.services.jpa.impls.JwtUserDetailsService;
 import org.junit.Assert;
@@ -63,7 +67,19 @@ public class UserJpaControllerTest {
     @MockBean
     IUserJPAService userJPAService;
     @MockBean
+    IUserJPARepository userJPARepository;
+    @MockBean
+    ILocationJPARepository locationJPARepository;
+    @MockBean
+    IProductJPARepository productJPARepository;
+    @MockBean
+    ISaleJPARepository saleJPARepository;
+    @MockBean
+    ITimeJPARepository timeJPARepository;
+    @MockBean
     JwtUserDetailsService userDetailsService;
+    @MockBean
+    IRoleJPARepository roleJPARepository;
     @MockBean
     private AuthenticationManager authenticationManager;
     @MockBean
@@ -75,7 +91,6 @@ public class UserJpaControllerTest {
 
     private AuthorizationResponse authorizationResponse;
     static String url = "/api/v1";
-    private static String jwt = "Bearer ";
 
     /*test register account have many case, such as test-success, test-bad-request, test-internal-error*/
     @Test
@@ -168,50 +183,6 @@ public class UserJpaControllerTest {
         }
 
     }
-
-    @BeforeEach
-    void setUp() {
-        //step1: create user authenticate mock data
-        LoginFormRequest loginFormRequest = new LoginFormRequest();
-        loginFormRequest.setUsername("anguyen");
-        loginFormRequest.setPassword("12345");
-
-        //step2: define behavior
-        /*2.1.  authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
-        *2.2.  userDetailsService
-                .loadUserByUsername(authenticationRequest.getUsername());
-        * 2.3. jwtTokenUtil.generateToken(userDetails);
-        * 2.4. userJPAService.getByUsername(authenticationRequest.getUsername());
-        * */
-        UsernamePasswordAuthenticationToken authenticate = new UsernamePasswordAuthenticationToken(loginFormRequest.getUsername(), loginFormRequest.getUsername());
-        Mockito.when(authenticationManager.authenticate(authenticate)).thenReturn(authenticate);
-
-        //2.2
-        UserJPA userJpa = new UserJPA();
-        userJpa.setUserId(UUID.randomUUID());
-        userJpa.setUsername(loginFormRequest.getUsername());
-        userJpa.setPassword(loginFormRequest.getPassword());
-        Set<RoleJPA> roles = new HashSet<>();
-        RoleJPA roleJpa;
-        roles.add(roleJpa = new RoleJPA(UUID.randomUUID(), "USER", "User access", null));
-        userJpa.setRoles(roles);
-        Collection<SimpleGrantedAuthority> authoritiesGranted = new ArrayList<>();
-        authoritiesGranted.add(new SimpleGrantedAuthority("ROLE_USER"));
-
-        Mockito.when(userJPAService.getByUsername(anyString())).thenReturn(userJpa);//mockito
-
-        MyUserDetail myUserDetail = new MyUserDetail(userJPAService.getByUsername(loginFormRequest.getUsername()),
-                loginFormRequest.getUsername(), loginFormRequest.getPassword(), authoritiesGranted);
-
-        Mockito.when(userDetailsService.loadUserByUsername(anyString())).thenReturn(myUserDetail);
-
-        //2.3 generate token
-        String token = jwtTokenUtil.generateToken(myUserDetail);
-        Mockito.when(jwtTokenUtil.generateToken(myUserDetail)).thenReturn(token);
-
-        jwt += token;
-    }
-
     /*forbidden exception*/
     @Test
     void testGetUserInfo_unauthorizedShouldSucceedWith403() {
@@ -262,8 +233,4 @@ public class UserJpaControllerTest {
         }
     }
 
-    @Test
-    void testGetUserInfo_authorizedShouldSucceedWith200() {
-
-    }
 }

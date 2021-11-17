@@ -9,17 +9,20 @@ import com.tma.demo.exceptions.BadRequestException;
 import com.tma.demo.exceptions.InternalServerException;
 import com.tma.demo.exceptions.NotFoundException;
 import com.tma.demo.repositories.cassandra.IProductCassandraRepository;
-import com.tma.demo.repositories.jpa.IProductJPARepository;
+import com.tma.demo.repositories.jpa.*;
 import com.tma.demo.services.cassandra.IProductCassandraService;
 import com.tma.demo.services.jpa.impls.JwtUserDetailsService;
 import com.tma.demo.services.jpa.impls.ProductJPAServiceImpl;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -36,6 +39,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@ExtendWith(SpringExtension.class)
+@ExtendWith(MockitoExtension.class)
 @WebMvcTest(ProductJPAController.class)
 public class ProductJPAControllerTest {
     /*ProductJPAController Class has:
@@ -45,29 +50,32 @@ public class ProductJPAControllerTest {
      * */
     @Autowired
     MockMvc mockMvc;
-
     @MockBean
     ProductJPAServiceImpl productJPAService;
-
     @InjectMocks
     ProductJPAController productJPAController;
-
     @MockBean
     IProductJPARepository productJPARepository;
-
     @MockBean
     JwtUserDetailsService jwtUserDetailsService;
-
+    @MockBean
+    IRoleJPARepository roleJPARepository;
     @MockBean
     JwtTokenUtil jwtTokenUtil;
-
     @MockBean
     JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
-
     @MockBean
     IProductCassandraService productCassandraService;
     @MockBean
     IProductCassandraRepository productCassandraRepository;
+    @MockBean
+    ILocationJPARepository locationJPARepository;
+    @MockBean
+    ISaleJPARepository saleJPARepository;
+    @MockBean
+    IUserJPARepository userJPARepository;
+    @MockBean
+    ITimeJPARepository timeJPARepository;
 
     @Test
     void testGetAllProductAPI_shouldSucceedWithStatus200() {

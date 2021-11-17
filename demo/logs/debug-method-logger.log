@@ -1,0 +1,285 @@
+2021-11-17 15:30:08,787 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 12232 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:30:08,792 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:30:08,793 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-17 15:30:11,188 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14652 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:30:11,191 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:30:11,196 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:30:16,138 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-17 15:30:20,235 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 11.818 seconds (JVM running for 1135.416)
+2021-11-17 15:30:21,554 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14652 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:30:21,555 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:30:21,558 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:30:23,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14652 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:30:23,475 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:30:23,477 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:31:39,506 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7064 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:31:39,509 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:31:39,526 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:31:47,051 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7064 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:31:47,053 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:31:47,056 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:31:49,339 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7064 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:31:49,340 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:31:49,343 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:33:44,392 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 5372 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:33:44,404 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:33:44,404 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-17 15:34:04,645 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-17 15:34:18,571 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 36.571 seconds (JVM running for 40.863)
+2021-11-17 15:35:59,095 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:35:59,097 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:35:59,143 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:08,034 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:08,035 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:08,038 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:10,740 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:10,741 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:10,743 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:12,826 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:12,827 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:12,829 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:14,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:14,598 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:14,600 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:17,062 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:17,063 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:17,066 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:18,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15212 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:36:18,972 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:36:18,974 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:36:32,577 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-11-17 15:36:32,729 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-3] JWT Token does not begin with Bearer String
+2021-11-17 15:36:32,730 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-2] JWT Token does not begin with Bearer String
+2021-11-17 15:36:32,731 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-4] JWT Token does not begin with Bearer String
+2021-11-17 15:36:34,487 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-5] JWT Token does not begin with Bearer String
+2021-11-17 15:36:34,582 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-6] JWT Token does not begin with Bearer String
+2021-11-17 15:36:34,719 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-7] JWT Token does not begin with Bearer String
+2021-11-17 15:38:52,322 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-11-17 15:53:01,206 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 5372 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:01,207 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:01,208 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:08,128 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-17 15:53:17,126 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 16.122 seconds (JVM running for 1179.419)
+2021-11-17 15:53:32,869 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:32,949 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:32,985 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:43,113 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:43,114 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:43,120 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:49,392 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:49,393 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:49,395 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:53,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:53,260 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:53,263 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:56,699 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:56,701 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:56,707 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:53:58,932 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:53:58,933 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:53:58,934 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:54:01,695 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 11096 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:54:01,696 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:54:01,697 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:16,610 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:16,613 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:16,617 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:29,688 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:29,688 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:29,691 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:35,262 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:35,263 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:35,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:38,612 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:38,650 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:38,653 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:42,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:42,027 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:42,029 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:46,595 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:46,596 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:46,598 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:55:51,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 8440 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:55:51,433 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:55:51,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:05,723 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 5372 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:05,725 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:05,725 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:13,813 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-17 15:59:19,991 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:19,994 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:19,998 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:23,742 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 18.149 seconds (JVM running for 1546.034)
+2021-11-17 15:59:31,874 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:31,875 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:31,878 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:33,674 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 5372 (F:\my_workspace\springboot-springdatajpa-maven\demo\target\classes started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:33,675 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:33,675 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:37,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:37,131 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:37,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:41,875 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:41,876 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:41,878 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:45,634 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:45,635 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:45,637 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:46,556 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-11-17 15:59:48,391 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:48,393 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:48,395 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:51,455 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 14028 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 15:59:51,456 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 15:59:51,458 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 15:59:56,018 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 22.58 seconds (JVM running for 1578.311)
+2021-11-17 16:03:06,172 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:06,177 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:06,205 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:18,815 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:18,818 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:18,822 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:24,265 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:24,266 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:24,268 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:27,677 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:27,678 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:27,679 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:30,463 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:30,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:30,467 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:32,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:32,272 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:32,274 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:03:34,635 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2620 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:03:34,636 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:03:34,638 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:07:49,993 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:07:49,996 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:07:50,018 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:07:59,657 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:07:59,658 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:07:59,660 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:08:02,289 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:08:02,290 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:08:02,291 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:08:04,621 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:08:04,622 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:08:04,624 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:08:06,557 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:08:06,558 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:08:06,560 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:08:08,720 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:08:08,721 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:08:08,722 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:08:10,516 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10860 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:08:10,517 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:08:10,518 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:19,635 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:19,638 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:19,642 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:28,076 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:28,077 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:28,080 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:30,183 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:30,184 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:30,187 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:31,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:31,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:31,895 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:33,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:33,487 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:33,489 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:35,929 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:35,930 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:35,932 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:12:38,528 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13708 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:12:38,529 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:12:38,533 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:15:45,671 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:15:45,676 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:15:45,720 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:15:53,396 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:15:53,398 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:15:53,409 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:15:55,192 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:15:55,193 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:15:55,195 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:15:56,878 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:15:56,879 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:15:56,881 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:15:59,199 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:15:59,200 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:15:59,201 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:16:00,852 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:16:00,853 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:16:00,860 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:16:02,111 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 1996 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:16:02,112 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:16:02,114 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:17:42,022 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [http-nio-8080-exec-1] JWT Token does not begin with Bearer String
+2021-11-17 16:17:48,324 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10852 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:17:48,326 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:17:48,330 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:19:32,146 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 4604 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:19:32,149 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:19:32,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:20:21,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7148 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:20:21,600 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:20:21,603 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:21:15,003 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 12724 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:21:15,006 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:21:15,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:22:06,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 7000 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:22:06,020 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:22:06,027 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:22:18,537 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductJPAControllerTest in 14.564 seconds (JVM running for 19.529)
+2021-11-17 16:22:18,749 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:03,331 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 3156 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:30:03,334 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:30:03,355 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:30:15,247 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductJPAControllerTest in 13.995 seconds (JVM running for 20.163)
+2021-11-17 16:30:15,499 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:38,951 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductJPAControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 13484 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:30:38,954 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:30:38,984 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:30:51,460 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductJPAControllerTest in 14.631 seconds (JVM running for 19.379)
+2021-11-17 16:30:51,717 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,338 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,526 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,557 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,585 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,628 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:30:52,666 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:31:28,565 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15756 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:31:28,569 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:31:28,595 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:31:36,109 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15756 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:31:36,110 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:31:36,112 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:31:38,662 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15756 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:31:38,664 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:31:38,666 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:33:01,708 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2312 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:33:01,711 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:33:01,717 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:33:09,471 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2312 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:33:09,472 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:33:09,475 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:33:11,377 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 2312 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:33:11,378 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:33:11,380 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:34:14,348 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 508 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:34:14,351 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:34:14,358 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:34:29,035 INFO org.springframework.boot.StartupInfoLogger [main] Started UserJpaControllerTest in 16.739 seconds (JVM running for 22.227)
+2021-11-17 16:34:29,521 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:34:29,883 WARN com.tma.demo.configs.spring_security.JwtRequestFilter [main] JWT Token does not begin with Bearer String
+2021-11-17 16:36:47,748 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 15908 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:36:47,751 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:36:47,777 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:36:59,788 INFO org.springframework.boot.StartupInfoLogger [main] Started UserJpaControllerTest in 14.009 seconds (JVM running for 18.87)
+2021-11-17 16:39:21,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserJpaControllerTest using Java 1.8.0_144 on DESKTOP-RSSL4UD with PID 10612 (started by ongdi in F:\my_workspace\springboot-springdatajpa-maven\demo)
+2021-11-17 16:39:21,634 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-17 16:39:21,639 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-17 16:39:34,387 INFO org.springframework.boot.StartupInfoLogger [main] Started UserJpaControllerTest in 14.752 seconds (JVM running for 19.943)
